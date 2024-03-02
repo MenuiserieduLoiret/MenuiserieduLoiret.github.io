@@ -254,7 +254,7 @@ ul{
 				
 			}
 			
-			div.restauitalien:hover{
+			div.restauitalien img:hover{
 				box-shadow:0pt 2px 5px rgba(105, 108, 109, 0.7), 0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
 				z-index: 1; /* Pour s'assurer que l'effet de survol est au-dessus de l'image */
 				transform: scale(1.05);
@@ -272,7 +272,7 @@ ul{
 				align-items: center;
 			}
 
-			div.real1:hover{
+			div.real1 img:hover{
 				box-shadow:0pt 2px 5px rgba(105, 108, 109, 0.7), 0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
 				z-index: 1; /* Pour s'assurer que l'effet de survol est au-dessus de l'image */
 				transform: scale(1.05);
@@ -289,7 +289,7 @@ ul{
 				justify-content: center;
 				align-items: center;
 			}
-			div.real2:hover{
+			div.real2 img:hover{
 				box-shadow:0pt 2px 5px rgba(105, 108, 109, 0.7), 0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
 				z-index: 1; /* Pour s'assurer que l'effet de survol est au-dessus de l'image */
 				transform: scale(1.05);
@@ -307,7 +307,7 @@ ul{
 				align-items: center;
 			}
 
-			div.cavime1:hover{
+			div.cavime1 img:hover{
 				box-shadow:0pt 2px 5px rgba(105, 108, 109, 0.7), 0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
 				z-index: 1; /* Pour s'assurer que l'effet de survol est au-dessus de l'image */
 				transform: scale(1.05);
@@ -323,7 +323,7 @@ ul{
 				justify-content: center;
 				align-items: center;
 			}
-			div.realparticulier:hover{
+			div.realparticulier img:hover{
 				box-shadow:0pt 2px 5px rgba(105, 108, 109, 0.7), 0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
 				z-index: 1; /* Pour s'assurer que l'effet de survol est au-dessus de l'image */
 				transform: scale(1.05);
@@ -338,7 +338,7 @@ ul{
 				justify-content: center;
 				align-items: center;
 			}
-			div.realparticulier1:hover{
+			div.realparticulier1 img:hover{
 				box-shadow:0pt 2px 5px rgba(105, 108, 109, 0.7), 0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
 				z-index: 1; /* Pour s'assurer que l'effet de survol est au-dessus de l'image */
 				transform: scale(1.05);
@@ -354,7 +354,7 @@ ul{
 				justify-content: center;
 				align-items: center;
 			}
-			div.realparticulier2:hover{
+			div.realparticulier2 img:hover{
 				box-shadow:0pt 2px 5px rgba(105, 108, 109, 0.7), 0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
 				z-index: 1; /* Pour s'assurer que l'effet de survol est au-dessus de l'image */
 				transform: scale(1.05);
@@ -369,7 +369,7 @@ ul{
 				justify-content: center;
 				align-items: center;
 			}
-			div.realparticulier3:hover{
+			div.realparticulier3 img:hover{
 				box-shadow:0pt 2px 5px rgba(105, 108, 109, 0.7), 0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
 				z-index: 1; /* Pour s'assurer que l'effet de survol est au-dessus de l'image */
 				transform: scale(1.05);
@@ -384,7 +384,7 @@ ul{
 				justify-content: center;
 				align-items: center;
 			}
-			div.realparticulier4:hover{
+			div.realparticulier4 img:hover{
 				box-shadow:0pt 2px 5px rgba(105, 108, 109, 0.7), 0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
 				z-index: 1; /* Pour s'assurer que l'effet de survol est au-dessus de l'image */
 				transform: scale(1.05);
@@ -399,7 +399,7 @@ ul{
 				justify-content: center;
 				align-items: center;
 			}
-			div.realparticulier5:hover{
+			div.realparticulier5 img:hover{
 				box-shadow:0pt 2px 5px rgba(105, 108, 109, 0.7), 0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
 				z-index: 1; /* Pour s'assurer que l'effet de survol est au-dessus de l'image */
 				transform: scale(1.05);
