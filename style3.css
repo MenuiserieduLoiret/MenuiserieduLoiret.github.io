@@ -1,0 +1,511 @@
+
+
+header{
+	background-color:#3f72af;
+	border-style:solid;
+	border-color:#B9C4C7;
+	height : 120px;	
+	
+	
+}
+
+
+footer{
+	background-color:#3f72af;
+	border-style:solid;
+	border-color:#B9C4C7;
+	font-family:'Times New Roman';
+	color:#FFFFFF;
+	text-align:center;
+	font-weight:bold;
+}
+
+div.logo{
+	display: inline-block; 
+	
+}
+div.logo:hover{
+	box-shadow:0pt 2px 5px rgba(105, 108, 109, 0.7), 0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	z-index: 1; /* Pour s'assurer que l'effet de survol est au-dessus de l'image */
+	transform: scale(1.05);
+}
+
+div.logo img {
+    display: block; /* Pour éviter l'espace supplémentaire en bas de l'image */
+    max-width: 100%; /* Pour garantir que l'image ne dépasse pas de son conteneur */
+	
+}
+
+
+
+div.info{
+	position : relative;
+	top:55px;
+	text-align:center;
+
+	font-family : arial;
+	font-weight :bold;
+	color:white;
+	font-size : 17px;
+
+
+}
+
+div.coord{
+	position : absolute;
+	top : 0;
+	right:0;
+	text-align : right;
+	margin-right: 7%;
+	font-family : arial;
+	color: white;
+	font-weight :bold;
+	font-size : 17px;
+	
+}
+
+div.contact a{
+	background-color:#3f72af;
+	font-family:'Times New Roman';
+	color:white;
+	text-align:center;
+	font-weight:bold;
+	
+}
+div.contact a:hover{
+	box-shadow:0pt 2px 5px rgba(105, 108, 109, 0.7), 0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	z-index: 1; /* Pour s'assurer que l'effet de survol est au-dessus de l'image */
+	transform: scale(1.1);
+}
+
+nav, ul, li, a{
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	color: white;
+}
+
+
+nav{
+	width : 100%;
+}
+li:hover{
+	box-shadow:0pt 2px 5px rgba(105, 108, 109, 0.7), 0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	font-size : 15px;
+}
+
+
+ul{
+		
+		top: 0;
+		margin:0;
+		padding: 0;
+		margin-top:0%;
+		margin-left: 0%;
+		background-color:#3f72af;
+		
+	}
+	
+	
+	
+	li{
+		list-style-type: none;
+		color: #3f72af;
+		font-family: 'Times New Roman';
+		font-size:16px;
+		font-weight: bold;
+		font-style:italic;
+		border-style:solid;
+		
+	}
+		
+		li:hover{
+			color: #2D3E4A;
+			background-color:#3f72af;
+		}
+		
+
+		li:after{
+			content:"";
+			font-size: 0px;
+			color: #3f72af;
+			margin: 15px;}
+		
+			
+			
+	
+			
+					
+			h1{
+				font-family : 'Times New Roman';
+				text-align : center;
+				color: #586467;
+				font-size: 50px;
+			}
+			p.contact{
+				font-size: 25px;
+				
+			}
+			p.c1{
+				font-family:'Times New Roman';
+				font-size:30px;
+				text-align:center;
+				font-style:bold;
+				color: #717879;
+			}
+			p.c2{
+				font-family:'Times New Roman';
+				font-size:25px;
+				text-align:center;
+				color:#717879;
+				font-style:bold;
+			}
+			p.c3{
+				font-family:'Times New Roman';
+				font-size:22px;
+				color:#717879;
+				font-style:bold;
+				text-align:center;
+				
+				
+			}
+
+			p.produits{
+				font-family:'Times New Roman';
+				font-size:40px;
+				color:#717879;
+				font-style:bold;
+				text-align:center;
+			}
+			p.c4{
+				font-family:'Times New Roman';
+				font-size:22px;
+				color:#717879;
+				font-style:bold;
+				text-align:center;
+			
+				 
+			}
+			p.c5{
+				font-family:'Times New Roman';
+				font-size:35px;
+				text-align:center;
+				color:#717879;
+			}
+			
+			h4{
+				font-family:'Times New Roman';
+				text-align:center;
+			}
+			p.r15{
+				font-family:'Times New Roman';
+				font-size:22px;
+				color:#717879;
+				font-style:bold;
+				text-align:center;
+			}
+			p.rita{
+				font-family:'Times New Roman';
+				font-size:22px;
+				color:#717879;
+				text-align:center;
+				font-style:bold;
+			}
+			p.r1{
+				font-family:'Times New Roman';
+				font-size:22px;
+				color:#717879;
+				text-align:center;
+				font-style:bold;
+				
+			}
+			p.r2{
+				font-family:'Times New Roman';
+				font-size:22px;
+				color:#717879;
+				text-align:center;
+				font-style:bold;
+				
+			}
+			p.cavime{
+				font-family:'Times New Roman';
+				font-size:22px;
+				color:#717879;
+				text-align:center;
+				font-style:bold;
+			}
+			p.r3{
+				font-family:'Times New Roman';
+				font-size:22px;
+				color:#717879;
+				text-align:center;
+				font-style:bold;
+			}
+
+			div.restauitalien{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				
+				
+			}
+			
+			div.restauitalien:hover{
+				box-shadow:0pt 2px 5px rgba(105, 108, 109, 0.7), 0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+				z-index: 1; /* Pour s'assurer que l'effet de survol est au-dessus de l'image */
+				transform: scale(1.05);
+			}
+			
+			div.restauitalien img {
+				display: block; /* Pour éviter l'espace supplémentaire en bas de l'image */
+				max-width: 100%; /* Pour garantir que l'image ne dépasse pas de son conteneur */
+				
+			}	
+
+			div.real1{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+
+			div.real1:hover{
+				box-shadow:0pt 2px 5px rgba(105, 108, 109, 0.7), 0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+				z-index: 1; /* Pour s'assurer que l'effet de survol est au-dessus de l'image */
+				transform: scale(1.05);
+			}
+			
+			div.real1 img {
+				display: block; /* Pour éviter l'espace supplémentaire en bas de l'image */
+				max-width: 100%; /* Pour garantir que l'image ne dépasse pas de son conteneur */
+				
+			}	
+
+			div.real2{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			div.real2:hover{
+				box-shadow:0pt 2px 5px rgba(105, 108, 109, 0.7), 0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+				z-index: 1; /* Pour s'assurer que l'effet de survol est au-dessus de l'image */
+				transform: scale(1.05);
+			}
+			
+			div.real2 img {
+				display: block; /* Pour éviter l'espace supplémentaire en bas de l'image */
+				max-width: 100%; /* Pour garantir que l'image ne dépasse pas de son conteneur */
+				
+			}		
+			
+			div.cavime1{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+
+			div.cavime1:hover{
+				box-shadow:0pt 2px 5px rgba(105, 108, 109, 0.7), 0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+				z-index: 1; /* Pour s'assurer que l'effet de survol est au-dessus de l'image */
+				transform: scale(1.05);
+			}
+			div.cavime1 img {
+				display: block; /* Pour éviter l'espace supplémentaire en bas de l'image */
+				max-width: 100%; /* Pour garantir que l'image ne dépasse pas de son conteneur */
+				
+			}		
+
+			div.realparticulier{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			div.realparticulier:hover{
+				box-shadow:0pt 2px 5px rgba(105, 108, 109, 0.7), 0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+				z-index: 1; /* Pour s'assurer que l'effet de survol est au-dessus de l'image */
+				transform: scale(1.05);
+			}
+			div.realparticulier img {
+				display: block; /* Pour éviter l'espace supplémentaire en bas de l'image */
+				max-width: 100%; /* Pour garantir que l'image ne dépasse pas de son conteneur */
+				
+			}		
+			div.realparticulier1{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			div.realparticulier1:hover{
+				box-shadow:0pt 2px 5px rgba(105, 108, 109, 0.7), 0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+				z-index: 1; /* Pour s'assurer que l'effet de survol est au-dessus de l'image */
+				transform: scale(1.05);
+			}
+			div.realparticulier1 img {
+				display: block; /* Pour éviter l'espace supplémentaire en bas de l'image */
+				max-width: 100%; /* Pour garantir que l'image ne dépasse pas de son conteneur */
+				
+			}		
+
+			div.realparticulier2{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			div.realparticulier2:hover{
+				box-shadow:0pt 2px 5px rgba(105, 108, 109, 0.7), 0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+				z-index: 1; /* Pour s'assurer que l'effet de survol est au-dessus de l'image */
+				transform: scale(1.05);
+			}
+			div.realparticulier2 img {
+				display: block; /* Pour éviter l'espace supplémentaire en bas de l'image */
+				max-width: 100%; /* Pour garantir que l'image ne dépasse pas de son conteneur */
+				
+			}		
+			div.realparticulier3{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			div.realparticulier3:hover{
+				box-shadow:0pt 2px 5px rgba(105, 108, 109, 0.7), 0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+				z-index: 1; /* Pour s'assurer que l'effet de survol est au-dessus de l'image */
+				transform: scale(1.05);
+			}
+			div.realparticulier3 img {
+				display: block; /* Pour éviter l'espace supplémentaire en bas de l'image */
+				max-width: 100%; /* Pour garantir que l'image ne dépasse pas de son conteneur */
+				
+			}		
+			div.realparticulier4{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			div.realparticulier4:hover{
+				box-shadow:0pt 2px 5px rgba(105, 108, 109, 0.7), 0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+				z-index: 1; /* Pour s'assurer que l'effet de survol est au-dessus de l'image */
+				transform: scale(1.05);
+			}
+			div.realparticulier4 img {
+				display: block; /* Pour éviter l'espace supplémentaire en bas de l'image */
+				max-width: 100%; /* Pour garantir que l'image ne dépasse pas de son conteneur */
+				
+			}		
+			div.realparticulier5{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			div.realparticulier5:hover{
+				box-shadow:0pt 2px 5px rgba(105, 108, 109, 0.7), 0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+				z-index: 1; /* Pour s'assurer que l'effet de survol est au-dessus de l'image */
+				transform: scale(1.05);
+			}
+			div.realparticulier5 img {
+				display: block; /* Pour éviter l'espace supplémentaire en bas de l'image */
+				max-width: 100%; /* Pour garantir que l'image ne dépasse pas de son conteneur */
+				
+			}		
+			p.nr1{
+				font-family:'Times New Roman';
+				font-size:22px;
+				text-align:center;
+				font-style:bold;
+				color:#717879;
+			}
+			div.nr1{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				
+				
+			}
+			p.nr2{
+				font-family:'Times New Roman';
+				font-size:22px;
+				text-align:center;
+				font-style:bold;
+				color:#717879;
+			}
+			div.nr2{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			p.nr3{
+				font-family:'Times New Roman';
+				font-size:22px;
+				color:#717879;
+				text-align:center;
+				font-style:bold;
+			}
+			div.nr3{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			p.nr4{
+				font-family:'Times New Roman';
+				font-size:22px;
+				color:#717879;
+				text-align:center;
+				font-style:bold;
+			}
+			div.nr4{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			p.nr5{
+				font-family:'Times New Roman';
+				font-size:22px;
+				color:#717879;
+				text-align:center;
+				font-style:bold;
+			}
+			div.nr5{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			p.nr6{
+				font-family:'Times New Roman';
+				font-size:22px;
+				color:#717879;
+				text-align:center;
+				font-style:bold;
+			}
+			div.nr6{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			p.nr7{
+				font-family:'Times New Roman';
+				font-size:22px;
+				color:#717879;
+				text-align:center;
+				font-style:bold;
+			}
+			div.nr7{
+		
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			   
+			}
+			p.nr8{
+				font-family:'Times New Roman';
+				font-size:22px;
+				color:#717879;
+				text-align:center;
+				font-style:bold;
+			}
+			div.nr8{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			
+			
