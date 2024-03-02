@@ -508,4 +508,17 @@ ul{
 				align-items: center;
 			}
 			
-			
+			p.ml{
+				font-family:'Times New Roman';
+				font-size:19px;
+				color:#454c4d;
+				font-style:bold;
+			}
+
+			p.til{
+				font-family:'Times New Roman';
+				font-size:30px;
+				text-align:center;
+				font-style:bold;
+				color:#717879;
+			}
